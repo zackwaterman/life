@@ -3,6 +3,8 @@
 struct Cell {
     int is_alive;
     int live_neighbors;
+    int x;
+    int y;
 };
 
 struct Cell grid[10][10];
