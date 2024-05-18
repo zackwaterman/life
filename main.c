@@ -20,8 +20,6 @@ void initialize_grid() {
             grid[i][j].live_neighbors = 0;
         }
     }
-
-    grid[5][5].is_alive = 1;
 }
 
 void count_live_neighbors(int x, int y) {
